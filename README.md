@@ -159,7 +159,6 @@ This extension uses the Google Gemini 2.5 Flash Image Preview API. Please be awa
 ---
 
 **Contest Submission** - Built for [Google Chrome Built-in AI Challenge 2025]
-```
 
 ```
 TESTING INSTRUCTIONS FOR NANO BANANA CHROME EXTENSION
@@ -204,11 +203,6 @@ EXPECTED BEHAVIOR:
 NO CREDENTIALS REQUIRED - Extension works with tester's own API key
 ```
 
----
-
-## **LICENSE FILE (MIT License)**
-
-Create a file called `LICENSE` in your repository:
 ```
 MIT License
 
@@ -231,3 +225,4 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+```
