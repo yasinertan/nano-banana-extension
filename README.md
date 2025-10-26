@@ -158,9 +158,13 @@ This extension uses the Google Gemini 2.5 Flash Image Preview API. Please be awa
 
 ---
 
-**Contest Submission** - Built for [Google Chrome Built-in AI Challenge 2025]
+**Contest Submission** - Built for [Contest Name]
+```
 
+---
 
+## **TESTING INSTRUCTIONS**
+```
 TESTING INSTRUCTIONS FOR NANO BANANA CHROME EXTENSION
 
 1. SETUP (5 minutes):
