@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nano Banana Image Recreator</title>
+    <link rel="stylesheet" href="popup.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Fredoka+One&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="flex flex-col h-full">
+        <header class="text-center mb-4">
+            <h1 class="text-3xl font-bold title-font">Nano Banana</h1>
+        </header>
+
+        <main class="flex-grow grid grid-cols-2 gap-4">
+            <!-- Original Image Column -->
+            <div class="flex flex-col items-center justify-center bg-yellow-50 bg-opacity-70 rounded-lg p-3 shadow-inner">
+                <h2 class="text-lg font-bold text-yellow-800 mb-2">Original</h2>
+                <div id="original-image-container" class="w-full h-64 flex items-center justify-center bg-yellow-100 rounded-md">
+                    <img id="original-image" src="" alt="Original reference image" class="max-w-full max-h-full rounded-md hidden">
+                    <p id="original-placeholder" class="text-yellow-600">No image selected</p>
+                </div>
+            </div>
+
+            <!-- Generated Image Column -->
+            <div class="flex flex-col items-center justify-center bg-yellow-50 bg-opacity-70 rounded-lg p-3 shadow-inner">
+                <h2 class="text-lg font-bold text-yellow-800 mb-2">Generated</h2>
+                <div id="generated-image-container" class="w-full h-64 flex items-center justify-center bg-yellow-100 rounded-md">
+                     <div id="loader" class="loader hidden"></div>
+                    <img id="generated-image" src="" alt="AI generated image" class="max-w-full max-h-full rounded-md hidden">
+                    <p id="generated-placeholder" class="text-yellow-600">Your new image will appear here</p>
+                </div>
+            </div>
+        </main>
+        
+        <div id="error-message" class="text-red-600 font-semibold text-center my-2 h-5"></div>
+
+        <footer class="mt-4 flex items-center gap-3">
+            <input type="text" id="prompt-input" placeholder="Optional: add a descriptive prompt (or press Enter)..." class="flex-grow">
+            <button id="generate-btn">Recreate</button>
+            <button id="download-btn" class="hidden">Download</button>
+        </footer>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+</html>
