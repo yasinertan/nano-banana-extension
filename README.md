@@ -163,8 +163,6 @@ This extension uses the Google Gemini 2.5 Flash Image Preview API. Please be awa
 
 ---
 
-## **TESTING INSTRUCTIONS (For submission form)**
-```
 TESTING INSTRUCTIONS FOR NANO BANANA CHROME EXTENSION
 
 1. SETUP (5 minutes):
