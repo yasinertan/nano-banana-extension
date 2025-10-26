@@ -158,7 +158,7 @@ This extension uses the Google Gemini 2.5 Flash Image Preview API. Please be awa
 
 ---
 
-**Contest Submission** - Built for [Contest Name]
+**Contest Submission** - Built for [Google Chrome Built-in AI Challenge 2025]
 ```
 
 ---
